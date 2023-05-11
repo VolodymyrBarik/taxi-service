@@ -2,7 +2,6 @@ package taxi.service;
 
 import java.util.List;
 import java.util.NoSuchElementException;
-
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import taxi.dao.CarDao;
@@ -13,7 +12,7 @@ import taxi.model.Driver;
 
 @Service
 public class CarServiceImpl implements CarService {
-    private final static Logger logger = LogManager.getLogger(CarServiceImpl.class);
+    private static final Logger logger = LogManager.getLogger(CarServiceImpl.class);
     @Inject
     private CarDao carDao;
 

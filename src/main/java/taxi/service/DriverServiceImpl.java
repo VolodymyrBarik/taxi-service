@@ -3,7 +3,6 @@ package taxi.service;
 import java.util.List;
 import java.util.NoSuchElementException;
 import java.util.Optional;
-
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import taxi.dao.DriverDao;
@@ -13,7 +12,7 @@ import taxi.model.Driver;
 
 @Service
 public class DriverServiceImpl implements DriverService {
-    private final static Logger logger = LogManager.getLogger(DriverServiceImpl.class);
+    private static final Logger logger = LogManager.getLogger(DriverServiceImpl.class);
     @Inject
     private DriverDao driverDao;
 
