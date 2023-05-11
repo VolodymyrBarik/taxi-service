@@ -1,18 +1,22 @@
 # taxi-service
-
-## Taxi-service
 It's a small and simple but useful tool that can be used as a standalone app or be a part of a bigger,
 more complicated application. App helps you to manage the most frequent entities or balances of any taxi-park.
 If you are new, the service allows you to register as a driver in this taxi-park.
 
 ## Features
 As unregistered driver you have ability to create login and password.
+<p float="left" align="middle">
+  <img src="https://github.com/VolodymyrBarik/taxi-service/blob/9e3e3f295e0cef60ce86bbe583fe9617636c178c/Screenshot_1.png">
+</p>
 After that you become registered 
 driver and will have access to all options. As a registered user you have the opportunity 
 to create car manufacturers that are not present in db, and delete it.
 You have the ability to add new cars to the database and delete it.
 Every user has the ability to set a driver or drivers to a certain car and delete certain
 drivers from the cars drivers list.
+<p float="left" align="middle">
+  <img src="https://github.com/VolodymyrBarik/taxi-service/blob/9e3e3f295e0cef60ce86bbe583fe9617636c178c/Screenshot_2.png">
+</p>
 
 ## Architecture
 Used n-tier architecture with dao, service and controller layers.
