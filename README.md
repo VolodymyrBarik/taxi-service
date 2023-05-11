@@ -15,7 +15,6 @@ Every user has the ability to set a driver or drivers to a certain car and delet
 drivers from the cars drivers list.
 <img src="https://github.com/VolodymyrBarik/taxi-service/blob/9e3e3f295e0cef60ce86bbe583fe9617636c178c/Screenshot_2.png">
 
-
 ## Architecture
 Used n-tier architecture with dao, service and controller layers.
 Controllers are web-servlets which take incoming requests and responses from users via http.
