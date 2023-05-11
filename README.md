@@ -1,4 +1,4 @@
-# taxi-service
+## Taxi-service
 It's a small and simple but useful tool that can be used as a standalone app or be a part of a bigger,
 more complicated application. App helps you to manage the most frequent entities or balances of any taxi-park.
 If you are new, the service allows you to register as a driver in this taxi-park.
@@ -34,6 +34,7 @@ Written on java, built with maven.
 | [service](https://github.com/VolodymyrBarik/taxi-service/blob/35c7f69d6502d490ce9a1f21b7db00ede0d3d4e9/src/main/java/taxi/service)       | Classes responsible for business logic, connection between controllers and database |
 | [util](https://github.com/VolodymyrBarik/taxi-service/blob/35c7f69d6502d490ce9a1f21b7db00ede0d3d4e9/src/main/java/taxi/util)             | Utility responsible for connection to database                                      |
 | [web.filter](https://github.com/VolodymyrBarik/taxi-service/blob/35c7f69d6502d490ce9a1f21b7db00ede0d3d4e9/src/main/java/taxi/web/filter) | Filters such as Authentication filter                                               |
+| [resources](https://github.com/VolodymyrBarik/taxi-service/blob/53e785fd0807e3a8a31e6c9d2d2deb4dea984d79/src/main/resources)             | Here you can find setting for the logger and quick samples to recreate tables of db |
 
 
 ## Usage
