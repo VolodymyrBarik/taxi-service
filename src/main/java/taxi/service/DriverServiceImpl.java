@@ -13,6 +13,7 @@ import taxi.model.Driver;
 @Service
 public class DriverServiceImpl implements DriverService {
     private static final Logger logger = LogManager.getLogger(DriverServiceImpl.class);
+
     @Inject
     private DriverDao driverDao;
 

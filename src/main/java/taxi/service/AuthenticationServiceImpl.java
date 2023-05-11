@@ -12,6 +12,7 @@ import taxi.model.Driver;
 @Service
 public class AuthenticationServiceImpl implements AuthenticationService {
     private static final Logger logger = LogManager.getLogger(AuthenticationServiceImpl.class);
+
     private static final Injector injector = Injector.getInstance("taxi");
     @Inject
     private final DriverService driverService =
