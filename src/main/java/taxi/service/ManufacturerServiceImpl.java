@@ -2,7 +2,6 @@ package taxi.service;
 
 import java.util.List;
 import java.util.NoSuchElementException;
-
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import taxi.dao.ManufacturerDao;
