@@ -45,11 +45,11 @@ as JDBC driver.
 Script works well with Tomcat 9.0.50 server version.
 
 ## Technologies Used
-Java 11 - as main language
-JDBC - as the way to build connection to database
-MySql - as way to manage database
-Workbench - as database server
-Servlets JSP - to build communication with end user
-Apache Tomcat - as web server of the project
-Maven - as builder of the project
-Git - as version control system
+* Java 11 - as main language
+* JDBC - as the way to build connection to database
+* MySql - as way to manage database
+* Workbench - as database server
+* Servlets JSP - to build communication with end user
+* Apache Tomcat - as web server of the project
+* Maven - as builder of the project
+* Git - as version control system
