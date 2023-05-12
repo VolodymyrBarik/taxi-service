@@ -36,5 +36,21 @@ Written on java, built with maven.
 
 
 ## Usage
-To get the actual parameters of the database tables, run script from the resources/init_db.sql
-file in the Workbench. As a server recommended to use Tomcat 9.0.50
+Make sure you have Workbench  installed to run MySql database and Tomcat to run web-server as well as 
+Intellij IDEA or other tool to maintain the code.
+It is recommended to use script from the resources/init_db.sql to get the actual 
+parameters of the database and tables. To get connection to your newly created db
+go to util/Connection util and paste there your credentials such as URL to db
+and root login, password. It is recommended to use "com.mysql.cj.jdbc.Driver"
+as JDBC driver. 
+Script works well with Tomcat 9.0.50 server version.
+
+## Technologies Used
+Java 11 - as main language
+JDBC - as the way to build connection to database
+MySql - as way to manage database
+Workbench - as database server
+Servlets JSP - to build communication with end user
+Apache Tomcat - as web server of the project
+Maven - as builder of the project
+Git - as version control system
